@@ -1,6 +1,6 @@
 # Write your code here.
 def line(queue)
-  queue.size >0 ? (puts "The line is currently: "+ line_sequence(queue) ): (puts "should say the line is empty")
+  queue.size >0 ? (puts "The line is currently: "+ line_sequence(queue) ): (puts "The line is currently empty.")
 end
 def line_sequence(queue)
     string = ""
