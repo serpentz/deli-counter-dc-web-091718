@@ -9,3 +9,7 @@ def line_sequence(queue)
     }
     string
 end
+def take_a_number(queue, customer)
+  queue.push(customer)
+  puts "Welcome, #{customer}. You are number #{queue.index(customer)} in line."
+end
