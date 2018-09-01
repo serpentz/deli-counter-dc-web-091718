@@ -13,3 +13,6 @@ def take_a_number(queue, customer)
   queue.push(customer)
   puts "Welcome, #{customer}. You are number #{queue.index(customer) + 1} in line."
 end
+def now_serving(queue)
+queue.size>0 ? (puts queue.pop ):(puts "There is nobody waiting to be served!")
+end
