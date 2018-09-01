@@ -1,11 +1,11 @@
 # Write your code here.
 def line(queue)
-  queue.size >0 ? (puts "The line is currently: "+ line_sequence(queue) ): (puts "The line is currently empty.")
+  queue.size >0 ? (puts "The line is currently:"+ line_sequence(queue) ): (puts "The line is currently empty.")
 end
 def line_sequence(queue)
     string = ""
     queue.map.with_index {|person,place_in_line|
-        string << " #{place_in_line+1}. person"
+        string << " #{place_in_line+1}. #{person}"
     }
     string
 end
