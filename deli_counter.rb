@@ -5,7 +5,7 @@ end
 def line_sequence(queue)
     string = ""
     queue.map.with_index {|person,place_in_line|
-        string << "#{place_in_line+1}. person"
+        string << " #{place_in_line+1}. person"
     }
     string
 end
